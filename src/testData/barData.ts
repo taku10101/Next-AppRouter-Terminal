@@ -1,4 +1,6 @@
 "use client";
+
+
 export const barData = [
   {
     name: "Page A",
