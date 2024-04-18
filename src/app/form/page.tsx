@@ -1,4 +1,4 @@
-import contactSchema from "./_components/contactSchema";
+import contactSchema from "./_components/schema";
 
 export default function Page() {
   async function subscribe(formData: FormData) {
@@ -13,7 +13,7 @@ export default function Page() {
   return (
     <form action={subscribe}>
       <input type='email' name='email' />
-      <button type='submit'>ok</button>
+      <button type='submit'>送信</button>
     </form>
   );
 }
